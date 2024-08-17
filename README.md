@@ -1,67 +1,14 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/bndf1/calculator-microservice/badge)](https://www.codefactor.io/repository/github/bndf1/calculator-microservice)
-# Welcome to microservice calculator! :rocket:
-
-Hi! This is the **calculator microservice example**. In this example two endpoints are exposed, in order to represent this basic operations:  
-
-    Add
-     
-and
- 
-	Subtract  
-
-In order to perform or test these simple operations, we can use the attached postman collection, once the microservice has been started.
-
-# Technology stack used
-
-The technology stack used for this example, including libraries and tools are:
-
- - Spring Boot 2.17 and Spring 5
--   Maven
--   Project Lombok
--   IntelliJ IDEA 2019.2 (Community Edition)
--   OpenJDK version 8
--   JUnit 5
-
-Moreover some dependencies have been added in order to facilitate the development lifecycle and improve test abstraction (EasyRandom and JaCoCo for test reports):
-
-     <dependency>  
-    	 <groupId>org.jeasy</groupId>  
-    	 <artifactId>easy-random-core</artifactId>  
-    	 <version>4.0.0</version>  
-    </dependency>
-
-
-## Methodolgy used
-
-For this example I've used TDD as development methodology, and can be checked at commits: 
-[ee1cdb9](https://github.com/bndF1/calculator-microservice/commit/ee1cdb9f792fe9cd8206b0b1682881aab673589b), [11a619c](https://github.com/bndF1/calculator-microservice/commit/11a619c7acd6a6efb0ecd7742e6e23beecf0ee35) and [683805c](https://github.com/bndF1/calculator-microservice/commit/683805c4938f9a0c5c49dbd28fea3fa2159107ee) although there are more examples.
-
-Also would be noticiable to know that Github projects have been used for a basic representation of the tasks done.
-
-## Other instructions
-
-Running the application (development mode):
-
-	mvn spring-boot:run
-
-Runing unit tests: 
-
-	mvn test  
-	
-Running integration tests: 
-	
-	mvn verify  
-  
-Creating the jar: 
-	
-	mvn clean package
-
-Running the generated .jar
-	
-	java -jar target/calculator.jar 
-
-Tests results with JaCoCo are aviable at
-	
-	/target/site/jacoco
-
-Please note that I have focused on bussiness layer and api rest layer with integration test, that means that tests for DTOs have not been done or tests for default generated class to run the application has not been tested.
+As a developer, you've been granted access to the APls of five distinct e-commerce companies. Your objective is to develop a responsive React Frontend Web Application that showcases the top N products sold by these companies.
+• While ordinarily, registration with each e-commerce company is required separately for your startup, the test server simplifies this process by allowing you to register through a single api for all companies simultaneously.
+Are seers All esturns produce ate for to regate or gin tompany wages that you shal devel and
+subject to change by the respective e-commerce companies. Generate a custom unique product identifier for the data received to uniquely identify a single product.
+: Your applation should const of to pages one for displayingall products and another for showcasing a
+specific product. Both pages should exhibit comprehensive details including Name, Company, Category, Price, Rating, Discount, and Availability.
+• The all products page must support filtration based on category, e-commerce company, rating, price range, and availability. Products should be sorted by price, rating, discount, and paginated to ensure efficient navigation.
+• Employ a random assortment of images as product illustrations for both pages.
+• Each API call made by your server to the Test Server incurs a cost and will negatively impact the score you are awarded in this test.
+• Your users should receive a timely, performance and accurate response. Therefore, any attempt to minimise costs shouldn't be at the expense of your user's experience or by inaccurately displaying stale product data on your pages
+• Your frontend application should solely consume the Test server API to obtain product data and not utilise any third-party APls.
+• Utilise any CSS library of your preference such as Material Ul, Tailwind CSS, Bootstrap, etc. Not utilising a CSS library or relying solely on native CSS will result in lower scores.
+The timeries panies areine rese me sort isay arine discounts at ridict avalay ior
+notice and at any frequency or time. Your app must accommodate the changes made by these e-commerce1
